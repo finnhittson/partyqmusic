@@ -1,0 +1,55 @@
+.t-row {
+    display: flex;
+}
+
+.t-board {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.t-cell {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    color: grey;
+}
+
+.t-cell-0 {
+    background-color: rgb(202, 202, 202);
+}
+
+.t-cell-1 {
+    background-color: rgb(139, 137, 255);
+    border-bottom: 1px solid #00f;
+    border-right: 1px solid #00f;
+    border-top: 1px solid #00b;
+    border-left: 1px solid #00b;
+}
+
+.t-cell-2 {
+    background-color: green;
+}
+
+.t-cell-3 {
+    background-color: red;
+}
+
+.t-score-label {
+    font-weight: bold;
+}
+
+.t-score-label {
+    font-weight: bold;
+}
+
+.t-parent {
+    display: flex;
+}
+
+element.style {
+    width: 44px;
+    left: 0px;
+}
